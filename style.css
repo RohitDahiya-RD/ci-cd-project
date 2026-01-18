@@ -1,6 +1,79 @@
-body {
-  background-color: #f4f4f4;
-  text-align: center;
-  margin-top: 100px;
-  font-family: Arial;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #1e293b;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #38bdf8;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(to right, #0f172a, #1e3a8a);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    background-color: #38bdf8;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #0ea5e9;
+}
+
+/* Card Sections */
+.card {
+    background-color: #f8fafc;
+    margin: 40px auto;
+    padding: 30px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #1e293b;
+}
+
+.card ul li {
+    margin-left: 20px;
+    line-height: 1.8;
+}
+
+/* Footer */
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
 }

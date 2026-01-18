@@ -2,4 +2,6 @@ First Pass - 68bc12d89e1448c0ab036e310a90e568
 Username- RD
 Pass - Jaat@1199
 
-URL - http://localhost:8080/
+Jenkins URL - http://localhost:8080/
+
+Nginx URL - http://localhost
